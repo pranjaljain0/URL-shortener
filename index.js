@@ -3,7 +3,6 @@ const app = express()
 const bodyParser = require("body-parser");
 const cors = require("cors");
 var admin = require('firebase-admin');
-const port = 3000
 
 var serviceAccount = require("./secret/config.json");
 
@@ -73,6 +72,6 @@ app.get('/', cors(), (req, res) => {
     res.send('Hello World!')
 })
 
-app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
+app.listen(process.env.PORT || 3000, () => {
+    console.log("Started on PORT 3000");
 })
