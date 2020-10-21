@@ -1,8 +1,8 @@
 # URL-shortener
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/pranjaljain0/URL-shortener)
 
-Url Shortner is an Express Application for Generating short URLs on your domain. Often we want to share links to a website to other platforms, But the links are too long.
+URL Shortner is an Express Application for Generating short URLs on your domain. Often we want to share links to a website to other platforms, But the links are too long.
 
 If I talk about this blog.
 The link will be something like...
@@ -12,6 +12,8 @@ https://dev.to/pranjaljain0/creating-a-very-simple-url-shortner-using-express...
 ```
 
 Which is already occupying _77 characters_ when it can occupy around _10 characters_.
+
+Find a complete tutorial [here](https://dev.to/pranjaljain0/creating-a-very-simple-url-shortner-using-express-firebase-28gl).
 
 #### Prerequisit
 
