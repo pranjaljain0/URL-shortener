@@ -1,7 +1,7 @@
 {
-    "name": "Simple URL Shortner",
-    "description": "A barebones Express app to shorten URLs",
-    "repository": "https://github.com/pranjaljain0/URL-shortener",
-    "logo": "https://node-js-sample.herokuapp.com/node.png",
-    "keywords": ["node", "express", "static"]
-  }
+  "name": "Simple URL Shortner",
+  "description": "A barebones Express app to shorten URLs",
+  "repository": "https://github.com/pranjaljain0/URL-shortener",
+  "logo": "https://github.com/pranjaljain0/URL-shortener/raw/main/assets/logo.png",
+  "keywords": ["node", "express", "static"]
+}

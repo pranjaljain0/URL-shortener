@@ -1,30 +1,32 @@
 # URL-shortener
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Url Shortner is an Express Application for Generating short URLs on your domain. Often we want to share links to a website to other platforms, But the links are too long.
 
 If I talk about this blog.
 The link will be something like...
+
 ```bash
 https://dev.to/pranjaljain0/creating-a-very-simple-url-shortner-using-express...
 ```
 
-Which is already occupying *77 characters* when it can occupy around *10 characters*.
-
+Which is already occupying _77 characters_ when it can occupy around _10 characters_.
 
 #### Prerequisit
 
-* Nodejs
-* Firebase Account
+- Nodejs
+- Firebase Account
 
 #### Packages
 
-* [express](https://expressjs.com)
-* [nodemon](https://nodemon.io)
-* [randomstring](https://www.npmjs.com/package/randomstring)
-* [body-parser](https://www.npmjs.com/package/body-parser)
-* [cors](https://www.npmjs.com/package/cors)
-* [firebase-admin](https://www.npmjs.com/package/firebase-admin)
-* [express-server-status](https://www.npmjs.com/package/express-server-status)
+- [express](https://expressjs.com)
+- [nodemon](https://nodemon.io)
+- [randomstring](https://www.npmjs.com/package/randomstring)
+- [body-parser](https://www.npmjs.com/package/body-parser)
+- [cors](https://www.npmjs.com/package/cors)
+- [firebase-admin](https://www.npmjs.com/package/firebase-admin)
+- [express-server-status](https://www.npmjs.com/package/express-server-status)
 
 ## Installation
 
@@ -35,10 +37,13 @@ https://github.com/pranjaljain0/url-shortner.git && cd url-shortner
 ```
 
 npm install to install all required packages
+
 ```bash
 npm install
 ```
+
 run nodemon to debug the application
+
 ```bash
 nodemon index.js
 ```
@@ -55,7 +60,9 @@ curl -H "Content-Type: application/json" -d '{"url":{URL TO STORE AS STRING}}' h
 And as a link is generated you can use that link to go to the website stored for that link.
 
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
